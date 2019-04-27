@@ -1,3 +1,10 @@
+/* Remove at some point */
+#page-hymn .justify-content-between {
+    display: none !important;
+}
+
+
+
 body {
     background: #FFF6E6;
     font-family: 'Lato', 'Helvetica', sans-serif;
