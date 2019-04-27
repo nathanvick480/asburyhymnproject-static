@@ -1,0 +1,146 @@
+body {
+    background: #FFF6E6;
+    font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Noto Serif SC', 'Lato', 'Helvetica', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#navbar.navbar-dark {
+    background: #372400 !important;
+}
+
+#navbar .nav-link i {
+    padding-right: 3px;
+}
+
+.btn-outline-primary {
+    border-color: #372400;
+    border-width: 2px;
+    color: #372400;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+    background-color: #372400;
+    border-color: #372400;
+    color: #FFFFFF;
+}
+
+.btn-outline-secondary {
+    border-color: #29524A;
+    border-width: 2px;
+    color: #29524A;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+    background-color: #29524A;
+    border-color: #29524A;
+    color: #FFFFFF;
+}
+
+/*** MENU STYLES ***/
+
+#page-home .nav-item-home a,
+#page-about .nav-item-about a,
+#page-hymntexts .nav-item-hymntexts a,
+#page-hymntunes .nav-item-hymntunes a,
+#page-classhymns .nav-item-classhymns a {
+    color: #FFFFFF;
+}
+
+/*** JUMBOTRON ***/
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/hymnbook.jpg');
+    background-position: center center;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+#header h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#main-highlights {
+    background: #22433D;
+}
+
+#main-highlights a path {
+    fill: #f18f01;
+    transition: fill 0.25s ease;
+}
+
+#main-highlights a:hover path {
+    fill: #ffffff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+    #main-highlights .svg-wrapper {
+        margin-bottom: 25px;
+    }
+}
+
+.blockquote i {
+    color: #372400;
+}
+
+audio {
+    width: 100%;
+}
+
+.hymn-meta p {
+    margin-bottom: 0px;
+    word-wrap: break-word;
+}
+
+.hymn-meta .hymn-meta-heading {
+    font-size: 75%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hymn-meta #hymn-meta-classes {
+    text-transform: capitalize;
+}
+
+.breadcrumb {
+    background: #29524A;
+    border-radius: 0px;
+}
+
+.breadcrumb-item a {
+    color: #FFFFFF;
+}
+
+.breadcrumb-item a:hover {
+    color: #fff;
+}
+
+.breadcrumb-item.active {
+    color: #bcbcbc;
+}
+
+#footer {
+    background: #372400;
+    color: #FFFFFF;
+}
+
+#footer p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    opacity: 0.7;
+}
